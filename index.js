@@ -1,6 +1,6 @@
 // # Ghost Startup
 // Orchestrates the startup of Ghost when run from command line.
-
+// by hh
 var startTime = Date.now(),
     debug = require('ghost-ignition').debug('boot:index'),
     ghost, express, common, urlService, parentApp;
